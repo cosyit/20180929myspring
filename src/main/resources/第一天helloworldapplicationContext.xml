@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- 从第一天的项目中的配置文件上：我们应该感受到以下spring的知识点：
+    1.id是用来标识这个bean的，而且和个人身份证一样，唯一性。
+    2.class是全类名，使用了反射技术。
+    3. property name是SetXxx  name 就是xxx，set后面的第一个字符转小写。
+    -->
+    <bean id="helloWorld" class="com.cosyit.myspring.第1天.HelloWorld">
+        <property name="name" value="Spring"></property>
+    </bean>
+</beans>
