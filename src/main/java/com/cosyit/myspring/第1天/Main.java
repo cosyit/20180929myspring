@@ -15,6 +15,14 @@ public class Main {
         HelloWorld helloWorld =  new HelloWorld();
         //第二步：给对象赋值
         helloWorld.setName("david teacher");
+        helloWorld.setName("david teacher");
+        helloWorld.setName("david teacher");
+        helloWorld.setName("david teacher");
+        helloWorld.setName("david teacher");
+        helloWorld.setName("david teacher");
+        helloWorld.setName("david teacher");
+        helloWorld.setName("david teacher");
+        helloWorld.setName("david teacher");
 
         helloWorld.sayHelloWorld();
 
