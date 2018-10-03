@@ -42,6 +42,8 @@ Sample sampleA = Factroy.creator(1);
 这样，在整个就不涉及到Sample 的具体子类，达到封装的效果，这样就
 减少了错误修改的机会。
 
+ 
+
 
 
 
