@@ -1,4 +1,4 @@
-package com.cosyit.myspring.第1天;
+package com.cosyit.myspring.第01天;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;

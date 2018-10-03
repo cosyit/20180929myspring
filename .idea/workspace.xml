@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="7757c7de-b05f-4b03-a30a-b9cf10880325" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cosyit/myspring/第1天/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cosyit/myspring/第1天/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cosyit/myspring/第1天/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cosyit/myspring/第01天/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cosyit/myspring/第1天/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cosyit/myspring/第01天/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/第一天helloworldapplicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/第一天helloworldapplicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cosyit/myspring/第1天/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cosyit/myspring/第1天/Main.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,27 +23,28 @@
           <entry key="project.closed" value="9" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="3" />
           <entry key="project.open.time.26" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="1186" />
           <entry key="properties" value="8" />
-          <entry key="txt" value="43" />
+          <entry key="txt" value="96" />
           <entry key="xml" value="581" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="1186" />
-          <entry key="PLAIN_TEXT" value="43" />
+          <entry key="PLAIN_TEXT" value="96" />
           <entry key="Properties" value="8" />
           <entry key="XML" value="581" />
         </counts>
@@ -69,17 +72,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
+            <state relative-caret-position="1180">
               <caret line="59" selection-start-line="59" selection-end-line="59" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cosyit/myspring/第1天/HelloWorld.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cosyit/myspring/第01天/HelloWorld.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="73" lean-forward="true" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
+            <state relative-caret-position="380">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#264#265#0" expanded="true" />
@@ -90,9 +93,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cosyit/myspring/第1天/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cosyit/myspring/第01天/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="415">
               <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -141,6 +144,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/cosyit/myspring/第1天/HelloWorld.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/cosyit/myspring/第1天/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cosyit/myspring/第01天/Main.java" />
       </list>
     </option>
   </component>
@@ -150,10 +154,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="195" />
-    <option name="width" value="1728" />
-    <option name="height" value="1039" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="728" />
+    <option name="y" value="10" />
+    <option name="width" value="1195" />
+    <option name="height" value="1030" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -162,8 +167,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,24 +192,18 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="myspring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myspring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="第1天" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538510971939" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538511178666" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/MoHu-Outsource" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -229,11 +226,11 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cosyit.myspring.第1天.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.cosyit.myspring.第01天.Main" />
       <module name="myspring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cosyit.myspring.第1天.*" />
+          <option name="PATTERN" value="com.cosyit.myspring.第01天.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -267,7 +264,8 @@
       <workItem from="1538342255695" duration="596000" />
       <workItem from="1538449713741" duration="21000" />
       <workItem from="1538491477958" duration="1975000" />
-      <workItem from="1538506011526" duration="937000" />
+      <workItem from="1538506011526" duration="1724000" />
+      <workItem from="1538567128119" duration="650000" />
     </task>
     <task id="LOCAL-00001" summary="通过yyp向下复制了一些垃圾代码，来测试git">
       <created>1538161553610</created>
@@ -283,17 +281,23 @@
       <option name="project" value="LOCAL" />
       <updated>1538161775199</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="重新复习了一下helloworld,并整理了一下此demo 运行顺序。">
+      <created>1538511078485</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1538511078485</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13924000" />
+    <option name="totallyTimeSpent" value="15361000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="583" y="8" width="956" height="824" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20107238" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33964366" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -302,7 +306,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40851063" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28510028" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -369,13 +373,33 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="通过yyp向下复制了一些垃圾代码，来测试git" />
     <MESSAGE value="恢复刚刚通过yyp向下复制了一些垃圾代码，回归之前的状态。" />
-    <option name="LAST_COMMIT_MESSAGE" value="恢复刚刚通过yyp向下复制了一些垃圾代码，回归之前的状态。" />
+    <MESSAGE value="重新复习了一下helloworld,并整理了一下此demo 运行顺序。" />
+    <option name="LAST_COMMIT_MESSAGE" value="重新复习了一下helloworld,并整理了一下此demo 运行顺序。" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.19.RELEASE/spring-context-4.3.19.RELEASE.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
+        <state relative-caret-position="1180">
           <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cosyit/myspring/第01天/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -393,31 +417,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cosyit/myspring/第1天/HelloWorld.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cosyit/myspring/第01天/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="73" lean-forward="true" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.19.RELEASE/spring-context-4.3.19.RELEASE.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cosyit/myspring/第1天/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="415">
           <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />

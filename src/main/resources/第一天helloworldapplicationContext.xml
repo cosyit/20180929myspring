@@ -8,7 +8,7 @@
     2.class是全类名，使用了反射技术。
     3. property name是SetXxx  name 就是xxx，set后面的第一个字符转小写。
     -->
-    <bean id="helloWorld" class="com.cosyit.myspring.第1天.HelloWorld">
+    <bean id="helloWorld" class="com.cosyit.myspring.第01天.HelloWorld">
         <property name="name" value="Spring"></property>
     </bean>
 </beans>
