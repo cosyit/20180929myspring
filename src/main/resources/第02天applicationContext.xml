@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- 通过构造器来进行为bean进行初始化 -->
+    <bean id="car0" class="com.cosyit.myspring.第02天.Car">
+        <constructor-arg value="Audi"></constructor-arg>
+        <constructor-arg value="Shanghai"></constructor-arg>
+        <constructor-arg value="300000" type="int"></constructor-arg>
+    </bean>
+
+    <bean id="car1" class="com.cosyit.myspring.第02天.Car">
+        <constructor-arg index="0" value="bmw"/>
+        <!--<constructor-arg index="1" value="上海"/> -->
+        <!-- todo 可以用name指定变量，用type指定系统类型，ref指定自定义的引用类型-->
+        <constructor-arg type="java.lang.String" name="corp">
+            <value>上海</value>
+        </constructor-arg>
+        <constructor-arg index="2" value="300"/>
+    </bean>
+</beans>

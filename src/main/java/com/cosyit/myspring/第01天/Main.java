@@ -22,8 +22,9 @@ public class Main {
          * -----------------------------当我们使用spring之后的做法--------------------------------------
          */
         // 001. 先加载applicaitonContext.xml文件。
-        ApplicationContext ctx = new ClassPathXmlApplicationContext("classpath:第一天helloworldapplicationContext.xml");
+        ApplicationContext ctx = new ClassPathXmlApplicationContext("classpath:第01天applicationContext.xml");
 
+        
         // 002. 调用无参构造函数，构造bean.
         HelloWorld helloWorld1 = ctx.getBean("helloWorld",HelloWorld.class);
 
