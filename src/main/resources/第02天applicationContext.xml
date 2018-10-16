@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
 
     <!-- 通过构造器来进行为bean进行初始化 -->
     <bean id="car0" class="com.cosyit.myspring.第02天.Car">
-        <constructor-arg value="Audi"></constructor-arg>
+        <constructor-arg> <value>Audi</value></constructor-arg>
         <constructor-arg value="Shanghai"></constructor-arg>
         <constructor-arg value="300000" type="int"></constructor-arg>
     </bean>
@@ -13,10 +14,34 @@
     <bean id="car1" class="com.cosyit.myspring.第02天.Car">
         <constructor-arg index="0" value="bmw"/>
         <!--<constructor-arg index="1" value="上海"/> -->
-        <!-- todo 可以用name指定变量，用type指定系统类型，ref指定自定义的引用类型-->
+        <!-- todo 可以用name指定构造器中的变量，用type指定系统类型，ref指定自定义的引用类型-->
         <constructor-arg type="java.lang.String" name="corp">
-            <value>上海</value>
+            <value><![CDATA[ <上海> ]]></value>
+            <!-- null值的表示： <null/>单标签  -->
+            <!-- 可能引发文件冲突的特殊字符的处理-->
         </constructor-arg>
         <constructor-arg index="2" value="300"/>
     </bean>
+
+    <bean id="person01" class="com.cosyit.myspring.第02天.CommonPerson"
+          p:name="汪大为" p:age="29" p:car-ref="car1"></bean>
+
+
+
+    <!-- 通过 util标签来配置多个 集合bean -->
+    <util:list id="cars1">
+        <ref bean="car1"></ref>
+        <ref bean="car0"></ref>
+    </util:list >
+
+    <!-- Configuration problem: Id is required for element 'set'   id 必须 -->
+    <util:set id="cars2">
+        <ref bean="car0"></ref>
+        <ref bean="car1"></ref>
+    </util:set>
+
+    <util:map id="carMap">
+        <entry key="k1" value="v1"></entry>
+        <entry key="k2"><value>"v2"</value></entry>
+    </util:map>
 </beans>
