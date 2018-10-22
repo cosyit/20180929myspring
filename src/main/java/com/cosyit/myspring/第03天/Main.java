@@ -10,5 +10,8 @@ public class Main {
 
        Person person =  ctx.getBean("person",Person.class);
         System.out.println(person);
+
+        Person person1 = ctx.getBean("person1",Person.class);
+        System.out.println(person1);
     }
 }

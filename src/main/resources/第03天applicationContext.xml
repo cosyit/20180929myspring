@@ -8,8 +8,6 @@
     <bean id="car" class="com.cosyit.myspring.第03天.Car"
           p:brand="Audi" p:price="300000"></bean>
 
-
-
     <!-- 集合类的正确使用。注意这里不是bean，不要写bean 只是bean,util:map 标签才可以正确引用到java.util.Map这样的常用类型。-->
     <util:map id="personDetailMap">
         <description>关于人的一些细节信息</description>
@@ -21,4 +19,13 @@
     <bean id="person" class="com.cosyit.myspring.第03天.Person" p:name="David"
           p:car-ref="car" p:address-ref="address" p:personDetails-ref="personDetailMap">
     </bean>
+
+
+    <!--<bean id="address1" class="com.cosyit.myspring.第03天.Address" p:street="蒙自路" p:city="上海"></bean>-->
+
+    <!--<bean id="car1" class="com.cosyit.myspring.第03天.Car" p:price="500000" p:brand="BMW"></bean>-->
+
+    <bean id="person1"  autowire="byName" class="com.cosyit.myspring.第03天.Person"></bean>
+    <bean id="person2"  autowire="byType" class="com.cosyit.myspring.第03天.Person"></bean>
+
 </beans>
