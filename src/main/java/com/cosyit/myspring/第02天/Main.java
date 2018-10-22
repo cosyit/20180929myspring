@@ -26,5 +26,8 @@ public class Main {
 
         Car car1 = ctx.getBean("car1", Car.class);
         System.out.println(car1);
+
+        CommonPerson person02 = ctx.getBean("person02",CommonPerson.class);
+        System.out.println(person02);
     }
 }

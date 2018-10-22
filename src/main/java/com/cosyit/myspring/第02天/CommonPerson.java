@@ -39,4 +39,13 @@ public class CommonPerson {
     public void setCar(Car car) {
         this.car = car;
     }
+
+    @Override
+    public String toString() {
+        return "CommonPerson{" +
+                "name='" + name + '\'' +
+                ", age='" + age + '\'' +
+                ", car=" + car +
+                '}';
+    }
 }

@@ -24,7 +24,21 @@
     </bean>
 
     <bean id="person01" class="com.cosyit.myspring.第02天.CommonPerson"
-          p:name="汪大为" p:age="29" p:car-ref="car1"></bean>
+          p:name="汪大为" p:age="29"></bean>
+
+
+    <!-- depends-on : ioc 中必须有，可以赋值给我这个bean,但是ioc容器中必须存在这个bean.-->
+    <bean id="person02" parent="person01"
+           p:age="29" depends-on="car1"></bean>
+
+
+    <!-- abstract="true" -->
+
+    <bean  id="person04" abstract="true" >
+    </bean>
+
+    <!-- car 属性必须要有一个car1出现在配置文件中，否则报错。就是说在IOC容器中必须存在car1-->
+    <bean  id="person03"  depends-on="car1" class="com.cosyit.myspring.第02天.CommonPerson" ></bean>
 
 
 
